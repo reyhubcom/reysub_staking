@@ -35,9 +35,8 @@ const metadata = {
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Infra <span class="hidden xl:inline">&</span>
-      <span class="text-accent dark:text-white">Insights </span> 
-Moving Networks Forward
+      Free template for <span class="hidden xl:inline">creating websites with</span>
+      <span class="text-accent dark:text-white"> Astro v6</span> + Tailwind CSS
     </Fragment>
 
     <Fragment slot="subtitle">
