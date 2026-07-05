@@ -29,16 +29,10 @@ const metadata = {
         variant: 'primary',
         text: 'Stake NOW',
         href: '#',
-        target: '',
+        target: '_blank',
         icon: 'tabler:download',
       },
-      {
-        text: '',
-        text: 'Liquidity',
-        href: '#',
-        target: '',
-        icon: 'tabler:download',
-      },
+      { text: 'Learn more', href: '#features' },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
