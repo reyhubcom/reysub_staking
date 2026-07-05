@@ -1,6 +1,6 @@
 site:
-  name: ReySub.xyz
-  site: 'https://reysub.xyz'
+  name: AstroWind
+  site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: ReySub
-    template: 'ReySub'
-  description: " A crypto validator is a specialized network node on a Proof-of-Stake (PoS) blockchain (like Ethereum or Solana) that locks up tokens as collateral to verify transactions and propose new blocks. In return for securing the network and ensuring ledger accuracy, validators earn staking rewards, which typically range between 3.5% and 20% annually."
+    default: AstroWind
+    template: '%s — AstroWind'
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: ReySub
+    site_name: AstroWind
     images:
       - url: '~/assets/images/default.png'
         width: 1200
