@@ -30,7 +30,7 @@ const metadata = {
       ]}
       actions={[
         {
-          text: 'EXCHANGE',
+          text: 'Hire me',
           href: '#',
         },
       ]}
@@ -46,22 +46,6 @@ const metadata = {
     title="Liquidity Pool"
     tagline=""
     actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Stake NOW',
-        href: '#',
-        target: '',
-        icon: 'tabler:steam',
-      },
-      {
-        text: '',
-        text: 'Liquidity',
-        href: '#',
-        target: '',
-        icon: 'tabler:droplet-half',
-      },
-    ]}
   >
     <Fragment slot="subtitle">
       I'm a Graphic Designer passionate about crafting visual stories. <br /> With 5 years of experience and a degree from
