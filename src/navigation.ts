@@ -24,11 +24,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Product',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Liquidity',
+          href: getPermalink('/home/liquidity'),
         },
         {
           text: 'Services',
