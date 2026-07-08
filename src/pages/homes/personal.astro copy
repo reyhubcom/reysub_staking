@@ -12,11 +12,12 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
-  title: 'Personal Homepage Demo',
+  title: 'Liquidity Pool',
 };
 ---
 
 <Layout metadata={metadata}>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6a4a77a10b298c1c80028690&product=sop' async='async'></script>
   <Fragment slot="announcement"></Fragment>
   <Fragment slot="header">
     <Header
@@ -30,7 +31,7 @@ const metadata = {
       ]}
       actions={[
         {
-          text: 'Hire me',
+          text: 'EXCHANGE',
           href: '#',
         },
       ]}
@@ -43,14 +44,28 @@ const metadata = {
 
   <Hero
     id="hero"
-    title="Sarah Johnson"
-    tagline="Personal Web Demo"
+    title="Liquidity Pool"
+    tagline=""
     actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Liquidity NOW',
+        href: '#',
+        target: '',
+        icon: 'tabler:steam',
+      },
+      {
+        text: '',
+        text: 'BUY.Wallet',
+        href: '#',
+        target: '',
+        icon: 'tabler:droplet-half',
+      },
+    ]}
   >
     <Fragment slot="subtitle">
-      I'm a Graphic Designer passionate about crafting visual stories. <br /> With 5 years of experience and a degree from
-      New York University's School of Design. I infuse vitality into brands and designs, transforming concepts into captivating
-      realities.
+      A crypto liquidity pool is a crowdsourced collection of digital assets locked in a smart contract to facilitate decentralized trading. Instead of matching buyers and sellers via traditional order books, it enables instant, automated token swaps by relying on mathematical pricing formulas.
     </Fragment>
   </Hero>
 
@@ -86,7 +101,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      src: 'https://i.postimg.cc/jjjCFktN/liquidity.png',
       alt: 'Colorful Image',
       loading: 'eager',
     }}
@@ -325,7 +340,7 @@ const metadata = {
         name: 'Mark Thompson',
         job: 'Creative director',
         image: {
-          src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          src: 'https://cryptologos.cc/logos/ethereum-eth-logo.png',
           alt: 'Mark Thompson Image',
         },
       },
@@ -334,7 +349,7 @@ const metadata = {
         name: 'Emily Martinez',
         job: 'CEO',
         image: {
-          src: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80',
+          src: 'https://cryptologos.cc/logos/solana-sol-logo.png',
           alt: 'Emily Martinez Image',
         },
       },
@@ -343,7 +358,7 @@ const metadata = {
         name: 'Laura Simmons',
         job: 'Founder of an NGO',
         image: {
-          src: 'https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          src: 'https://cryptologos.cc/logos/bnb-bnb-logo.png',
           alt: 'Laura Simmons Image',
         },
       },
@@ -391,15 +406,11 @@ const metadata = {
     ]}
   />
 
-  <!-- BlogLatestPost Widget **************** -->
+  <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
 
-  <BlogLatestPosts
-    id="blog"
-    title="Explore my insightful articles on my blog"
-    information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </BlogLatestPosts>
+  ChannelIO('boot', {
+    "pluginKey": "f9951754-b7ab-40c7-8818-027c7daf05f0"
+  });
+</script>
 </Layout>
