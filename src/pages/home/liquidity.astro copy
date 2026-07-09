@@ -76,26 +76,26 @@ const metadata = {
     columns={3}
     items={[
       {
-        icon: 'tabler:link',
+        icon: 'tabler:brand-dribbble',
         callToAction: {
           target: '_blank',
-          text: 'Liquidity',
+          text: 'Dribbble',
           href: '#',
         },
       },
       {
-        icon: 'tabler:link',
+        icon: 'tabler:brand-behance',
         callToAction: {
           target: '_blank',
-          text: 'Stake NOW',
+          text: 'Behance',
           href: '#',
         },
       },
       {
-        icon: 'tabler:wallet',
+        icon: 'tabler:brand-pinterest',
         callToAction: {
           target: '_blank',
-          text: 'BUY Wallet',
+          text: 'Pinterest',
           href: '#',
         },
       },
