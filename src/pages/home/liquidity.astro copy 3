@@ -269,16 +269,13 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Your secure crypto hardware wallet"
-    subtitle="Tangem keeps your crypto safe and offline.
-Store, buy, earn, send, swap, and spend thousands of tokens."
+    title="Let's create together"
+    subtitle="Ready to transform your vision into captivating designs?"
     actions={[
-     {
-        text: '',
-        text: 'BUY.Wallet',
-        href: '#',
-        target: '',
-        icon: 'tabler:droplet-half',
+      {
+        variant: 'primary',
+        text: 'Hire me',
+        href: '/',
       },
     ]}
   />
